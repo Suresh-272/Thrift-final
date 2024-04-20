@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +7,8 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: "Ubuntu", sans-serif;
-
+    font-family: "Roboto", sans-serif;
+    
 }
 
 /* .App {
@@ -19,16 +19,21 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 } */
+html{
+  background-image: url("https://i.pinimg.com/564x/63/90/25/639025f6ea462e154e6ef60d3a09f78a.jpg");
+
+}
 
 body {
   margin: 0;
   padding: 0;
-  background: rgb(216, 216, 216);
+  /* background: rgb(216, 216, 216); */
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* Navbar  */
 .nav {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(39, 39, 39);
   color: black;
   width: 100%;
   height: 50px;
@@ -41,8 +46,9 @@ body {
   box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }
 
-.site-title {
+.site-title  {
   font-size: 2rem;
+
 }
 
 .nav span{
@@ -59,7 +65,7 @@ body {
 }
 
 .nav a {
-  color: inherit;
+  color: white;
   text-decoration: none;
   height: 100%;
   display: flex;
@@ -124,7 +130,7 @@ body {
   color: rgb(0, 0, 0);
   background-color: rgb(253, 253, 253);
   border:  2px solid rgb(0, 0, 0) ;
-  transition: .3s;
+  transition: .5s;
 }
 
 .login-btn:hover{
